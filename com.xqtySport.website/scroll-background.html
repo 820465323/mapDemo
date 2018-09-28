@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" rel="stylesheet">
+        body{
+            margin:0 auto;
+        }
+        .top {
+            top:0;
+            width: 100%;
+            height: 100%;
+            background: green;
+            border-radius: 10px;
+            position:fixed
+        }
+        .next {
+            margin-top: 700px;
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background: transparent;
+            z-index: 999;
+            border: 1px solid red;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="top">
+    <div style="border: 1px solid red;width: 200px;height: 200px;position: absolute"></div>
+    <video id="video-bg" src="//static1.gotokeep.com/homepage/5s.mp4" muted="" autoplay="" loop="" width="100%"></video>
+</div>
+
+<div class="next"></div>
+</body>
+</html>
